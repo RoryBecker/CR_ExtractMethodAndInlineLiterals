@@ -1,11 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Vsix xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="1.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2010">
   <Identifier Id="CR_ExtractMethodAndInlineLiterals">
-    <Name>CR_ExtractMethodAndInlineLiterals</Name>
-    <Author>MyCompany</Author>
+    <Name>ExtractMethodAndInlineLiterals for CodeRush</Name>
+    <Author>Rory Becker</Author>
     <Version>1.0</Version>
-    <Description xml:space="preserve">Empty DXCore VSIX plugin project.</Description>
+    <Description xml:space="preserve">CodeRush plugin designed to simplify the workflow of Introduce Locals, Extract method and Inline Temp. See Readme.MD for more details. </Description>
     <Locale>1033</Locale>
+    <Icon>CR-Plug-in.png</Icon>
     <SupportedProducts>
       <VisualStudio Version="10.0">
         <Edition>Pro</Edition>
